@@ -1,5 +1,5 @@
 
-## 📌 Overview
+## Overview
 The Ocean Network Canada AI Assistant is a conversational system designed to provide natural language access to **Ocean Networks Canada’s Oceans 3.0 data archive**.  
 It enables researchers, educators, Indigenous communities, policymakers, and students to query oceanographic datasets in plain English and receive accurate, cited responses with visualizations.
 
@@ -12,10 +12,10 @@ This ensures factual, contextually relevant, and transparent answers.
 ![4](/screenshots/4.png)
 ---
 
-## ✨ Key Features
+## Key Features
 - **Natural Language Queries** – Ask questions like *“What’s the water temperature in Cambridge Bay?”* and receive clear, cited responses.  
 - **RAG Pipeline** – Combines embeddings, vector retrieval, re-ranking, and LLM generation to improve accuracy.  
-- **Accuracy & Benchmarks** – Achieved **96% accuracy** in benchmark testing with <2s average latency.  
+- **Accuracy & Benchmarks** – Achieved **96% accuracy** in benchmark testing.  
 - **Data Transparency** – Every response includes full source citations, raw data links, and metadata.  
 - **User Personalization** – Adapts answers for different user roles (students, researchers, educators).  
 - **Admin Dashboard** – Allows ONC staff to upload documents, review queries, and manage knowledge content.  
@@ -23,7 +23,7 @@ This ensures factual, contextually relevant, and transparent answers.
 
 ---
 
-## ⚙️ System Architecture
+## System Architecture
 1. **User Input Layer** – Accepts plain-language queries.  
 2. **Query Processing** – Intent recognition, entity extraction, query expansion.  
 3. **Embedding & Vectorization** – Converts queries into semantic vectors.  
@@ -35,7 +35,7 @@ This ensures factual, contextually relevant, and transparent answers.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Frontend**: Next.js / React.js, Tailwind CSS  
 - **Backend**: FastAPI (Python)  
 - **Database**: PostgreSQL + Vector Database (ChromaDB)  
